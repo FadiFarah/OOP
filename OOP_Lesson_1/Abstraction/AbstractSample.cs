@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP_Lesson_1.Abstraction
 {
-    class AbstractSample
+    abstract class AbstractSample
     {
+        abstract public void testAbstractMethod();
     }
 }

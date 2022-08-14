@@ -8,7 +8,7 @@ namespace OOP_Lesson_1.Polymorphism
 {
     class PolyDerived : PolySample
     {
-        public int bbb(int n1, int n2)
+        public override int bbb(int n1, int n2)
         {
             return n1 * n2;
         }
